@@ -19,7 +19,7 @@ interface IDUserReq {
   valida_user: number
 }
 interface IDUserRes {
-  img_user?: string
+  img_user: string
   correo_user: string
   password_user?: string
   rol: ICRol

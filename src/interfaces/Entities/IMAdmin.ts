@@ -1,4 +1,4 @@
-import type { IDUser } from './'
+import type { IDUser, IDUserRes } from './'
 
 interface IMAdmin {
   isLogued?: boolean
@@ -18,7 +18,7 @@ interface IMAdminReq {
 interface IMAdminRes {
   isLogued?: boolean
   num_empleado: string | null
-  user: IDUser
+  user: IDUserRes
   valida_adm: number | string
 }
 
